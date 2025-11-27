@@ -16,7 +16,7 @@ Bu paketi projenize eklemek için Swift Package Manager kullanabilirsiniz.
 
 1. Xcode'da **File > Add Package Dependencies...** menüsünü açın.
 2. Arama çubuğuna bu reponun URL'sini veya yerel yolunu yapıştırın.
-3. İhtiyacınız olan kütüphaneleri seçin (örn: `FirebaseAnalyticsWrapper`, `FirebaseCrashlyticsWrapper`).
+3. İhtiyacınız olan kütüphaneleri seçin (örn: `FirebaseAnalytics`, `FirebaseCrashlytics`).
 
 ### Package.swift ile Ekleme
 
@@ -40,13 +40,25 @@ targets: [
 ]
 ```
 
-## Lokalde Test Etme (Sample App)
+## Lokalde Test Etme
 
-Bu paketi denemek için `Examples/SampleApp` klasöründeki örnek projeyi kullanabilirsiniz.
+Bu paketi denemek için iki yöntem var:
 
-1. `Examples/SampleApp/Package.swift` dosyasını Xcode ile açın.
-2. Scheme olarak `SampleApp`'i seçin.
-3. Bir simülatör seçip çalıştırın (Cmd+R).
+### 1. Xcode ile Example App (Önerilen)
+
+1. `Examples/SampleApp/Package.swift` dosyasını Xcode ile açın **veya**
+2. Ana proje klasöründeki `Package.swift`'i açıp SampleApp scheme'ini seçin
+3. Bir iOS simülatör seçin (iPhone 15, iPhone 14, vs.)
+4. Cmd+R ile çalıştırın
+
+> **Not**: `-ObjC` linker flag'i Firebase için kritiktir. Xcode bu flag'i düzgün handle eder, `swift build` komutu ile build sorun çıkarabilir.
+
+### 2. Kendi Projenize Ekleme
+
+Kendi iOS projenize SPM üzerinden ekleyebilirsiniz:
+- Xcode'da **File > Add Package Dependencies > Add Local**
+- Bu projenin bulunduğu klasörü seçin (örn: masaüstünüzde veya başka bir konumda)
+- İhtiyacınız olan modülleri (FirebaseAnalytics, FirebaseCrashlytics, vs.) ekleyin
 
 ## İçerik
 

@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "SampleApp",
-    platforms: [.iOS(.v14), .macOS(.v11)],
+    platforms: [.iOS(.v14)],
     dependencies: [
         .package(path: "../../") // InternalFirebase
     ],

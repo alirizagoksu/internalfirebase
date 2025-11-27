@@ -25,7 +25,7 @@ struct SampleApp: App {
             VStack {
                 Image(systemName: "flame.fill")
                     .imageScale(.large)
-                    .foregroundStyle(.red)
+                    .foregroundColor(.red)
                 Text("InternalFirebase Sample")
                     .font(.title)
                 
@@ -34,7 +34,7 @@ struct SampleApp: App {
                     print("Event logged")
                 }
                 .padding()
-                .buttonStyle(.borderedProminent)
+                .buttonStyle(.bordered)
             }
             .padding()
         }
