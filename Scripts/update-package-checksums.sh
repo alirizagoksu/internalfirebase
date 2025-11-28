@@ -23,7 +23,7 @@ while IFS='|' read -r zipname checksum; do
     
     # Use sed to find and replace the checksum for this framework
     # Pattern: finds the binaryTarget with matching URL and updates its checksum
-    sed -i '' -E "/download\/12.6.1\/${framework}.xcframework.zip/,/checksum:/ s/checksum: \"[^\"]+\"/checksum: \"${checksum}\"/" "$PACKAGE_FILE"
+    sed -i '' -E "/download\/[0-9.]+\/${framework}.xcframework.zip/,/checksum:/ s/checksum: \"[^\"]+\"/checksum: \"${checksum}\"/" "$PACKAGE_FILE"
     
 done < "$CHECKSUMS_FILE"
 

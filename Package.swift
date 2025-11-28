@@ -161,7 +161,7 @@ let package = Package(
         .binaryTarget(
             name: "GoogleUtilitiesBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.5/GoogleUtilities.xcframework.zip",
-            checksum: "ec70dd221177b8a0151845a1c3782b71fe3baeefb0d8688da18ffed905dfba64"
+            checksum: "a3bf0c11f5bbdb250aa1b138c53701ff7a44da1fba4dfb42897de891fcb87e77"
         ),
         .binaryTarget(
             name: "nanopbBinary",
@@ -226,7 +226,7 @@ let package = Package(
         .binaryTarget(
             name: "FirebaseRemoteConfigInteropBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.5/FirebaseRemoteConfigInterop.xcframework.zip",
-            checksum: "1afa0c469b1059d5e804bf3f3bcd88fb4de3420a3eb60da6d236ac912113c493"
+            checksum: "ee3ef495e8d7aba3c2414ceb17c697c48bc863dc1f90b51f3c2e6ec8cc58ac47"
         ),
         .binaryTarget(
             name: "FirebaseABTestingBinary",
@@ -251,7 +251,7 @@ let package = Package(
         .binaryTarget(
             name: "GTMSessionFetcherBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.5/GTMSessionFetcher.xcframework.zip",
-            checksum: "c4396c7c9158d74cbb3551f2fcef8d30c8dcb81365a984d0def0c1a714fb996d"
+            checksum: "87da8ec63af176610fb71a91818f51e84b90c3a083873bbc33d281dff9fbd7f8"
         ),
         .binaryTarget(
             name: "FirebaseAppCheckInteropBinary",
