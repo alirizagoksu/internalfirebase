@@ -26,7 +26,7 @@ find "$FRAMEWORKS_DIR" -maxdepth 1 -name "*.xcframework" -type d | while read -r
     
     # Create zip using ditto (preserves resource forks and code signatures)
     cd "$FRAMEWORKS_DIR"
-    ditto -c -k --sequesterRsrc --keepParent "$framework_name" "../$OUTPUT_DIR/$zip_name"
+    ditto -c -k --sequesterRsrc --keepParent --norsrc "$framework_name" "../$OUTPUT_DIR/$zip_name"
     cd ..
     
     # Calculate checksum

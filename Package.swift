@@ -146,17 +146,17 @@ let package = Package(
         .binaryTarget(
             name: "FirebaseCoreBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FirebaseCore.xcframework.zip",
-            checksum: "a17d978a6b4f6c79e9b06fa48ac6d64c6add869227dabd02311c50d2ea9802de"
+            checksum: "7f0a3ec1517608ab9b0ea01185eea014337a1143382939102d8c9ece0d007b77"
         ),
         .binaryTarget(
             name: "FirebaseCoreInternalBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FirebaseCoreInternal.xcframework.zip",
-            checksum: "9bdcc36aa8b78704d93912db392a89ed14e643667a64f3234ed3c30eb7b75550"
+            checksum: "eb211b6381a02cf23ac95bceb94ef5416c4c9a8b585ab6edf9c4376dc9b1cac3"
         ),
         .binaryTarget(
             name: "FirebaseInstallationsBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FirebaseInstallations.xcframework.zip",
-            checksum: "511597a3077bb9d0777ae170fa0dfce9f305f18083541bcea887b97be7ea4a98"
+            checksum: "8cb49c3a0ecf656899c822e39d50ce59082c3ea3c39682ac01d70f9ed51ad808"
         ),
         .binaryTarget(
             name: "GoogleUtilitiesBinary",
@@ -166,62 +166,62 @@ let package = Package(
         .binaryTarget(
             name: "nanopbBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/nanopb.xcframework.zip",
-            checksum: "f75c5d89cfc62dda4666140bb8662291086d16aa6bb33468ad6d155afe8e4200"
+            checksum: "c5986310935e0e289ec1cca2ac31a854282a946f3708b3e542e476d51fc1efc3"
         ),
         .binaryTarget(
             name: "FBLPromisesBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FBLPromises.xcframework.zip",
-            checksum: "2ec3f271a1915f2ed50414be8f7521afb6f3d2ff874b441f35708e92895641f4"
+            checksum: "62bef62529a77b3abbc0238338e72c91c74413abbd10c9d4f550583d78b33504"
         ),
         .binaryTarget(
             name: "PromisesBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/Promises.xcframework.zip",
-            checksum: "c33964f239a0fa15feb13a09c5be29fc17065f405e1bdb2e95293b1f4c74ad34"
+            checksum: "354d851a431e440084ed42bbaf546f301440236d138123a4c7bf12e6420d0532"
         ),
         .binaryTarget(
             name: "FirebaseSharedSwiftBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FirebaseSharedSwift.xcframework.zip",
-            checksum: "d2479244a2ab0372cafbd61a2fd619750737cf247ab2455c2119c09935f61bce"
+            checksum: "4ed6ec590e9d685f9a13148c7867758e4c798235bb9fdf7f2156f6c24667dfa9"
         ),
         .binaryTarget(
             name: "FirebaseAnalyticsBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FirebaseAnalytics.xcframework.zip",
-            checksum: "6f6fd6ce53599806cb8302a313cb613508c8b5bad999fb4a0b6ad7959d6d8a19"
+            checksum: "7d3661ea65be1aaa74ae3b97d61486779b71689456bdd947a0aef28a9b506b85"
         ),
         .binaryTarget(
             name: "GoogleAppMeasurementBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/GoogleAppMeasurement.xcframework.zip",
-            checksum: "4c747cfc4f60719653489e2adae98d603d53abbf81233f383dd009bd0be7d1b1"
+            checksum: "638cbb4a67ad9aa794f2c1363021d268fd494187c1250d53d575c75d0ed27fed"
         ),
         .binaryTarget(
             name: "GoogleAppMeasurementIdentitySupportBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/GoogleAppMeasurementIdentitySupport.xcframework.zip",
-            checksum: "ba48073fdd7cd1a76479374b39fd7709f101913771a99cffac41289a9fe5baa9"
+            checksum: "67b3f99c6a9f2801e46fc66385e46249f03ada1e4bc3ffc9f06f8a125b79bf00"
         ),
         .binaryTarget(
             name: "FirebaseCrashlyticsBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FirebaseCrashlytics.xcframework.zip",
-            checksum: "08f737af655d1b2ace674002e9b11c4375fbb1d3343ca2909e811f3b8aa11ba5"
+            checksum: "468cdfee8051571c262d38d27078b6c1a61aba614162e983591ea1a209738766"
         ),
         .binaryTarget(
             name: "FirebaseSessionsBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FirebaseSessions.xcframework.zip",
-            checksum: "dda26141dc34da995e6413c4c0abdad7d21bd4c41feb84a2e48472b786c29101"
+            checksum: "7604a38ea00a901e52566e04127880170153152c785f6f4de65ba2854f16059b"
         ),
         .binaryTarget(
             name: "FirebaseCoreExtensionBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FirebaseCoreExtension.xcframework.zip",
-            checksum: "8ed34c10741bc9aac376394c50cee9f9f9f70128e3fffb9a0dcc13407b3d1b7d"
+            checksum: "868935b7edf23abd933d0c630b7bcf93bc4ce5aa8cc5eb331917d4eb90a5ce50"
         ),
         .binaryTarget(
             name: "GoogleDataTransportBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/GoogleDataTransport.xcframework.zip",
-            checksum: "ecf4c8572a9a3f6a27d75ed9c6ab69ff65ce55aa62f101b52808b4b15429e245"
+            checksum: "4cfe3f816debd4340517013d0d3c66312cad1d942751ba42c250fb09a3fa2410"
         ),
         .binaryTarget(
             name: "FirebaseRemoteConfigBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FirebaseRemoteConfig.xcframework.zip",
-            checksum: "7674bd95737e622e80af627c44ce99f61457ca0609bac00c2ec310acadd17fde"
+            checksum: "db7733d1040b004e2f9702e9961d1e55c76e94fcfd2e073c4238b722b6b5031b"
         ),
         .binaryTarget(
             name: "FirebaseRemoteConfigInteropBinary",
@@ -231,22 +231,22 @@ let package = Package(
         .binaryTarget(
             name: "FirebaseABTestingBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FirebaseABTesting.xcframework.zip",
-            checksum: "453901085542b84a47ce4599971bba0afd9cddda515f41123cce340585324e30"
+            checksum: "8f1eac97629cc01effecf9e82e8f9fb3b93808775b2404833112e1d5a931bc59"
         ),
         .binaryTarget(
             name: "FirebaseMessagingBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FirebaseMessaging.xcframework.zip",
-            checksum: "9af897e1b88b22dac1b362aa19899719504235fa13846bb5ce1c05a793627676"
+            checksum: "f9cbbeb7487f82a6dfcd5c232493a899b558b834c4c794f1a97ef416d41a053a"
         ),
         .binaryTarget(
             name: "FirebaseMessagingInteropBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FirebaseMessagingInterop.xcframework.zip",
-            checksum: "0f04e87c28152258ba7d1b61ad4a08d977ad33c65c21a5e63f2e1ad6d8bf1e75"
+            checksum: "7fe0b8e65a8d36c69798faacab23a35bfee7526d546403f9aee18e42a853300a"
         ),
         .binaryTarget(
             name: "FirebaseStorageBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FirebaseStorage.xcframework.zip",
-            checksum: "7ee7252c19e07d287024faba9fea7d1de278365e16e02e544ddf2ef35120dac8"
+            checksum: "30fccad9a3edf09307a07b305072f7ab336db1bc796355f3ab18234cb5aebde7"
         ),
         .binaryTarget(
             name: "GTMSessionFetcherBinary",
@@ -256,12 +256,12 @@ let package = Package(
         .binaryTarget(
             name: "FirebaseAppCheckInteropBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FirebaseAppCheckInterop.xcframework.zip",
-            checksum: "b2790ebd5f32d7610ba34f071f01c44e5f78d5b9371119c30d3997517cc39c4f"
+            checksum: "8324dcb670ae936f871ecd57b25143832eac39b5b5655e5dcd4bb40a352096f2"
         ),
         .binaryTarget(
             name: "FirebaseAuthInteropBinary",
             url: "https://github.com/alirizagoksu/internalfirebase/releases/download/12.6.1/FirebaseAuthInterop.xcframework.zip",
-            checksum: "fb354570f5c2d781d223e36f4a4a51cef7c951b2445b28c2b027a2f37660097f"
+            checksum: "2d5b92cb527ae27f11ba9dec5da5fad70ee707e35387ffe2e1931796b1bebcf6"
         )
     ]
 )
